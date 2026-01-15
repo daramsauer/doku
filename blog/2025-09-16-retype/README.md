@@ -1,3 +1,9 @@
+---
+author: David Ramsauer
+date: '2025-09-16'
+---
+
+
 # Retype
 
 Die Dokumentation wird mit Retype erstellt

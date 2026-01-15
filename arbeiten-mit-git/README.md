@@ -1,5 +1,6 @@
 ---
 icon: git-branch
+order: 9000
 ---
 # Arbeit mit Git
 ## Konfiguration
@@ -115,6 +116,79 @@ Während der Programmierung werden fortlaufend Commits erstellt.
 Diese Commits werden mittels `git push` hinaufgeladen. Falls online Änderungen in der Zwischenzeit erfolt sind, so werden diese mittels `git pull` heruntergeladen.
 
 
+### Remote-Repositorys klonen
+
+Um auf ein Remote-Repository zugreifen zu können, muss das Repository **öffentlich** sein bzw. muss man in den Einstellungen als Mitarbeitender hinzugefügt worden sein.
+
+Nach einem Klick auf dem "Code-Button" wird die SSH-URL kopiert und in der Eingabeaufforderung wird
+
+```
+git clone git@github.com:perasser/apr-2b.git
+```
+eingefügt. Dadurch wird das Remote-Repository heruntergeladen und in einem Ordner namens *apr-2b* gespeichert. Möchte man einen anderen Ordnernamen wählen, so muss dieser hinter dem Repositroynamen angegeben werden:
+
+```
+git clone git@github.com:perasser/apr-2b.git apr2-ordner
+```
+
+### Repository löschen
+
+In GitHub können Repositorys im Settings-Bereich im Abschnitt "General" gelöscht werden.
+
+**Hinweis:** Fehlende Berechtigungen können dazu füheren, dass kein Settings-Bereich verfügbar ist (zB Classroom-Repositorys).
+
+### Mehrere Remote-Repositorys
+
+Bei einem Repository können mehrere Remote-Repositorys hinzugefügt werdn. Standardmäßig erhält ein Remote-Repository den Namen *origin*.
+
+Das Remote-Repository wird mittels:
+
+```
+git remote add origin git@github.com:daramsauer/xyz.git
+```
+
+hinzugefügt. Ein Name (zB origin) darf nur ein einziges Mal verwendet werden. Möchte man ein zweites Remote-Repository hinzufügen, so könnte man folgendermaßen schreiben:
+
+```
+git remote add classroom git@github.com:daramsauer/xyz.git
+```
+
+
+Bei `git push` muss ausgewählt werden, wohin die lokalen Commits übertragen werden.
+
+
+```
+git push origin main
+```
+
+bzw.
+
+```
+git push classroom main
+```
+
+Ist nur ein Remote-Repository verbunden, so reicht die Angabe von `git push`(ohne Details).
+
+**Hinweis:** Die verbundenen Remote-Repositorys können mittels `git remote -v` angezeigt werden.
+
+### Dateien/Ordner ausschließen
+
+Um Dateien bzw. Ordner vom Repository auszuschließen, wird eine Datei namens `.gitignore`im Repository gespeichert. In dieser Datei werden die einzelnen Einträge (Dateiname bzw. Ordnername) zeilenweise aufgelistet.
+
+Um zum Beispiel einen Ordner names `bin` vom Repository auszuschließen, wird eine `.gitignore` -Datei mit folgendem Inhalt erstellt:
+
+```
+bin/
+```
+
+Um zusätzlich auch noch eine Datei namens `geheim.txt` auszuschließen wird folgender Inhalt in die Datei geschrieben:
+
+```
+bin/
+gheim.txt
+```
+
+
 ### Achtung: Fehler
 
 Im folgenden abschnitt wird gezeigt, welche Fehlermeldung erscheint, wenn ein Repository lokal und remote mit Inhalt erstellt wird.
@@ -125,7 +199,7 @@ Im folgenden abschnitt wird gezeigt, welche Fehlermeldung erscheint, wenn ein Re
 
 Anschließend wird in einem Ordner ebenfalls eine Datei hinzugefügt, ein commit erstellt und mit dem zuvor erstellten GitHub-Repository verbunden:
 
-![Fehler - GitHub und lokal erstellt]()
+![Fehler - GitHub und lokal erstellt](assets/github-und-lokal-fehler.png)
 
 
 
