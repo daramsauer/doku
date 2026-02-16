@@ -25,5 +25,14 @@ order: 15000
 | 04. Dez. 2025 | Verbesserung des Tests, relative und absolute Pfade, Zugriff auf Dateien                                                     |
 | 15. Dez. 2025 | Verbesserung des Tests, Dokumentation mit KI, Zugriff auf Dateien                                                            |
 | 18. Dez. 2025 | Einrichtung PHPStorm, Python WH                                                                                              | 
-| 22. Dez. 2025 | Dokumentation mit KI                                                                                                         |
+| 22. Dez. 2025 | Dokumentation mit KI, Zugriff auf Dateien                                                                                    |
+| 12. Jän. 2026 | Beginn mit Godot                                                                                                             |
+| 15. Jän. 2026 | Godot                                                                                                                        |
+| 19. Jän. 2026 | Godot                                                                                                                        |
+| 26. Jän. 2026 | Godot                                                                                                                        |
+| 15. Jän. 2026 | Godot                                                                                                                        |
+| 29. Jän. 2026 | Godot                                                                                                                        |   
+| 02. Feb. 2026 | Godot                                                                                                                        |
+| 16. Feb. 2026 | Beginn mit C#                                                                                                                |       
+
 
