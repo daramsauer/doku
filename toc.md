@@ -33,6 +33,6 @@ order: 15000
 | 15. Jän. 2026 | Godot                                                                                                                        |
 | 29. Jän. 2026 | Godot                                                                                                                        |   
 | 02. Feb. 2026 | Godot                                                                                                                        |
-| 16. Feb. 2026 | Beginn mit C#                                                                                                                |       
-
-
+| 16. Feb. 2026 | Beginn mit C# (Namespaces, Datentypen)                                                                                       |       
+| 18. Feb. 2026 | HÜ-Besprechung und Umsetzung Godot (Signale)                                                                                 |                                                                                
+| 25. Feb. 2026 | Variablen, Datentypne, Benutzereingaben und -ausgbaen, Datentypen konvertieren                                               |
