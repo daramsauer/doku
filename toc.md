@@ -36,3 +36,11 @@ order: 15000
 | 16. Feb. 2026 | Beginn mit C# (Namespaces, Datentypen)                                                                                       |       
 | 18. Feb. 2026 | HÜ-Besprechung und Umsetzung Godot (Signale)                                                                                 |                                                                                
 | 25. Feb. 2026 | Variablen, Datentypne, Benutzereingaben und -ausgbaen, Datentypen konvertieren                                               |
+| 2. März. 2026 | Datentypen konvertieren, Fehlererkennung u. -behebung, Debugging, Klassen (Methoden, Eigenschaften)                          |
+
+
+
+
+
+
+
