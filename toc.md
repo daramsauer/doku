@@ -50,7 +50,7 @@ order: 15000
 | 06. Mai  2026 | Bibliotheken                                                                                                                 |
 | 13. Mai  2026 | Zeichenketten, Bibliothek                                                                                                    |
 | 18. Mai  2026 | Godot                                                                                                                        |
-| 27. Mai  2026 | Check über Methoden, Bibliotheken, Split                                                                                     |
-| 03. Juni 2026 | Check über Methoden, Bibliotheken, Split                                                                                     |
-| 10. Juni 2026 | Check korriegen, Mündl. Prüfungen                                                                                            |
+| 27. Mai  2026 | Check über Methoden, Bibliotheken, Split --> C#                                                                              |
+| 03. Juni 2026 | Check über Methoden, Bibliotheken, Split --> C#                                                                              |
+| 10. Juni 2026 | Check korriegen, Mündl. Prüfungen, in Dia arbeiten                                                                           |
 
