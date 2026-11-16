@@ -8,7 +8,7 @@ Mindmaps dienen zur **visuellen Darstellung** eines Themas. Die einzelnen **Knot
 Mit *Kommentar* oder *Symbolen* können zusätzliuche Informationen aufgeueichnet werden.
 Durch die Erstellung einer **Mindmap** wird das **Thema sehr  strukturiert** darstellbar.
 
-[!file](./assets/absolventenfoto.mm)
+[!file](assets/absolventenfoto.mm)
 ![Absolventen - Foto](assets/absolventenfoto.png)
 
 
