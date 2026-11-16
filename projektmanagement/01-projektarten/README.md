@@ -10,3 +10,4 @@ Projekte können anhand der folgenden Merkmale unterschieden werden:
 - Branche
 - Konkretisierung (Konzeptionsprojekt, Realisierungsprojekt)
 - Wiederholungsgrad (einmalige Projekte, sich wiederholende Projekte)
+- Auftraggeber (interne und externe Projekte)
